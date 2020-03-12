@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  <!-- Plug-ins required for executing Tests  -->
+  <!-- Required Plug-ins for executing Tests  -->
 	<build>
 		<plugins>
 			<plugin>
