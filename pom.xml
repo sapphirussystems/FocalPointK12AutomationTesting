@@ -42,7 +42,7 @@
 	
 	</build>
 
-<!-- Dependencies required for Project -->
+<!-- Required Dependencies for Project -->
   
 <dependencies>
 <!-- https://mvnrepository.com/artifact/junit/junit -->  
