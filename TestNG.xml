@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FocalPointK12_Automation">
+
+    <listeners>
+		<listener class-name="com.FocalPointK12.utilities.Reporting" />
+	</listeners>
+
+	<test name="FocalPointK12 App Test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.FocalPointK12.testCases.TC_LoginTest_001" />
+			<!-- <class name="com.FocalPointK12.testCases.TC_LoginDDT_002" /> -->
+		</classes>
+	</test>
+</suite>
